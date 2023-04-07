@@ -14,7 +14,7 @@ spring:
         show-sql: true
     datasource:
         url:
-          jdbc:mysql://${MYSQL_HOST:hospitaldb}:3309/hospital
+          jdbc:mysql://${MYSQL_HOST:localhost}:3309/hospital
         username: hospital
         password: hospital
         driver-class-name: com.mysql.cj.jdbc.Driver
